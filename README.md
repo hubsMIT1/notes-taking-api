@@ -9,7 +9,9 @@ This is a Django REST framework project that allows users to create, update, sha
 - To install the required packages, run the following command in the project directory:
 ```
 pip install -r requirements.txt
-```
+```****
+
+- Fill the postgreSQL DB credentials in .env file or if want to use the SQLITE then comment out the line from `92` and comment in lines from `99` in settings.py file
 
 - To `TEST`, run the following commands:
   
